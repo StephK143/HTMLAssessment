@@ -5,27 +5,11 @@ HTML Assessment is a demo website to start learning HTML. We were instructed on 
 
 # Technologies Used
 
-Atom
-HTML
-Git
-GitHub
+Atom - HTML - Git - GitHub
 
 # Concepts Used
-HTML language
-head
-body
-divisions
-paragraphs
-headers
-colors
-indentation
-bold using <strong>
-italics
-underlining
-block quote
-lists with bullet points
-style margins
+HTML language - head - body - divisions - paragraphs - headers - colors - indentation - bold using <strong> - italics - underlining - block quote - lists with bullet points - margins using style.
 
 
 # What I learned
-This was my first time using HTML and I feel like I have a good understanding of the language and how it works in tandem with CSS and Java. Learning Java is great but it is better when you see how it can work in real-life application with other languages.
+This was my first time using HTML and I feel like I have a good understanding of the language and how it works in tandem with CSS and Java. My understanding of Java is better now that I see how it can work in real-life application with other languages.
