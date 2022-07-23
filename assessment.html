@@ -24,8 +24,36 @@
      </div>
 
       <div>
-//This is where the table goes
-
+        <table>
+          <thead>
+            <tr>
+              <th>Weapons <br>Used</th>
+              <th>Zombies <br>Killed</th>
+              <th>Fallen <br> Men</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rifle</td>
+            <td>143</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Knife</td>
+            <td>222</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Bare Hands</td>
+            <td>42</td>
+            <td>1</td>
+          </tr>
+        </tbody>
+        </table>
   </div>
   <div>
     <ul>
@@ -47,7 +75,7 @@
     <h3 style="color:blue;"><u>Humans</u></h3>
 
     <ul>
-      <li>Defend from to North<li>
+      <li>Defend from to North</li>
           <ul>
           <li>Kill with knife</li>
           <li>Kill hand to zombie</li>
@@ -80,11 +108,13 @@
             </select><br>
 
       <label for weapon">What weapon did you use?</label>
-              <select onclick="weapon" id="weaponUsed">
-                  <option value="rifle">Rifle</option>
-                  <option value="knife">Knife</option>
-                  <option value="bareHands">Hands</option>
-              </select><br>
+                  <label for="weapon1">Rifle</label>
+                  <input type="checkbox" id="weapon1" name="weapon1" value="Rifle">
+                  <label for="weapon1">Knife</label>
+                  <input type="checkbox" id="weapon2" name="weapon2" value="Knife">
+                  <label for="weapon3">Bare Hands</label>
+                  <input type="checkbox" id="weapon3" name="weapon3" value="Bare Hands">
+            <br>
 
         <label for location">Are you to the North or South?</label>
               <select name="location" id="location">
