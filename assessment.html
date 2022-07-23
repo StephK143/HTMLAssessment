@@ -5,7 +5,7 @@
     <title>HTML Assessment</title>
   </head>
   <body>
-    <h1>Zombies vs Humans</h1>
+    <h1 style="margin-left: 200px">Zombies vs Humans</h1>
 
       <div>
         <blockquote>
@@ -13,48 +13,68 @@
                <strong>Zombie</strong> ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby. The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.
             </p>
             <br />
+            <blockquote>
             <p>
                <em><strong>Horribilem</strong> walking dead resurgere de crazed sepulcris creaturis, zombie sicut de grave feeding iride et serpens. Pestilentia, shaun ofthe dead scythe animated corpses ipsa screams. Pestilentia est plague haec decaying ambulabat mortuos. Sicut zeder apathetic malus voodoo. Aenean a dolor plan et terror soulless vulnerum contagium accedunt, mortui iam vivam unlife. Qui tardius moveri, brid eof reanimator sed in magna copia sint terribiles undeath legionis. Alii missing oculis aliorum sicut serpere crabs nostram. Putridi braindead odores kill and infect, aere implent left four dead.
             </em></p>
+             </blockquote>
             <br />
             <p><em>
               <strong>Lucio</strong> fulci tremor est dark vivos magna. Expansis creepy arm yof darkness ulnis witchcraft missing carnem armis Kirkman Moore and Adlard caeruleum in locis. Romero morbo Congress amarus in auras. Nihil horum sagittis tincidunt, zombie slack-jawed gelida survival portenta. The unleashed virus est, et iam zombie mortui ambulabunt super terram. Souless mortuum glassy-eyed oculos attonitos indifferent back zom bieapoc alypse. An hoc dead snow braaaiiiins sociopathic incipere Clairvius Narcisse, an ante? Is bello mundi z?
             </em></p>
-       </blockquote>
+
      </div>
 
+       <h1 style="margin-left: 280px; color:green">Statistics</h1>
+
       <div>
+
         <table>
           <thead>
             <tr>
-              <th>Weapons <br>Used</th>
-              <th>Zombies <br>Killed</th>
-              <th>Fallen <br> Men</th>
+              <caption style="color:purple"><strong><u>Zombies killed by region</u></strong></caption>
+              <th> Weapon <br>Used</th>
+              <th>Killed <br>from the <br>North </th>
+              <th>Killed <br>from the <br>South </th>
+              <th>Total <br>Zombies <br>Killed</th>
             </tr>
         </thead>
         <tbody>
           <tr>
             <td>Rifle</td>
-            <td>143</td>
-            <td>0</td>
+            <td>19,342</td>
+            <td>8,336</td>
+            <td>27,678</td>
           </tr>
         </tbody>
+        <br>
         <tbody>
           <tr>
             <td>Knife</td>
-            <td>222</td>
-            <td>1</td>
+            <td>4,982</td>
+            <td>7,240</td>
+            <td>12,222</td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <td>Bare Hands</td>
-            <td>42</td>
-            <td>1</td>
+            <td>Bare <br>Hands</td>
+            <td>2,453</td>
+            <td>4,690</td>
+            <td>7,143</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>26,777</strong></td>
+            <td><strong>20,266</strong></td>
+            <td><strong>47,043</strong></td>
           </tr>
         </tbody>
         </table>
   </div>
+          <img src="http://clipart-library.com/clipart/940344.htm" alt="zombie picture" id="zombie">
   <div>
     <ul>
       <h3 style="color:blue;"><u>Zombies</u></h3>
@@ -78,7 +98,7 @@
       <li>Defend from to North</li>
           <ul>
           <li>Kill with knife</li>
-          <li>Kill hand to zombie</li>
+          <li>Kill hand to zombie hand</li>
           </ul>
       <li>Defend to the South</li>
          <ul>
@@ -88,44 +108,61 @@
 
   </div>
 
-<h2 style="color:red;"><i>Enter your body count here!</i><h2>
 
   <div>
-    <form action="assessment.html" method="post">
-      <label for name="firstName">First name:</label>
-        <input type="text" name="firstName">
+    <form action="assessment.html" method="POST">
+      <p id=form-prompt style="color:red;"><i>Enter your body count here!</i></p>
 
-      <label for name="lastName">Last name:</label>
+      <div>
+        <label for name="firstName">First name:</label>
+          <input type="text" name="firstName">
+        <label for name="lastName">Last name:</label>
           <input type="text" name="lastName">
-          <input type="date" name="Date"><br><br>
-
-      <label for bodyCount">How many zombies did you kill?</label>
+        <input type="date" name="Date">
+      </div>
+          <br>
+      <div>
+      <label for bodyCount>How many zombies did you kill?</label>
             <select name="bodyCount" id="ZombiesKilled">
                 <option value="one">1</option>
                 <option value="two">2</option>
                 <option value="three">3</option>
                 <option value="four">4</option>
-            </select><br>
-
-      <label for weapon">What weapon did you use?</label>
-                  <label for="weapon1">Rifle</label>
-                  <input type="checkbox" id="weapon1" name="weapon1" value="Rifle">
-                  <label for="weapon1">Knife</label>
-                  <input type="checkbox" id="weapon2" name="weapon2" value="Knife">
-                  <label for="weapon3">Bare Hands</label>
-                  <input type="checkbox" id="weapon3" name="weapon3" value="Bare Hands">
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+                <option value="nine">9</option>
+                <option value="ten">10</option>
+            </select>
+        </div>
             <br>
+        <div>
+      <label for weapon>What weapon did you use?</label>
+                  <input type="checkbox" id="weapon1" name="weapon1" value="Rifle">
+                  <label for="weapon1">Rifle</label>
+                  <input type="checkbox" id="weapon2" name="weapon2" value="Knife">
+                  <label for="weapon1">Knife</label>
+                  <input type="checkbox" id="weapon3" name="weapon3" value="Bare Hands">
+                  <label for="weapon3">Bare Hands</label>
+        </div>
+            <br>
+        <div>
+            <label for location>Are you to the North or South?</label>
+              <input type="radio" id="north" name="locaton" value="north">
+                <label for value="north">North</label>
+              <input type="radio" id="south" name="location" value="south">
+                <label for value="south">South</label>
+        </div>
+                <br>
+                <br>
 
-        <label for location">Are you to the North or South?</label>
-              <select name="location" id="location">
-                  <option value="North">North</option>
-                  <option value="South">South</option>
-              </select><br><br>
-
-            <input type="submit" value="Click here to enter your kills">
-    </form>
+                <div>
+            <button type="submit">Click here to enter your kills</button>
+              </div>
+              </form>
+        </div>
     <br>
-  </div>
 <br>
 <br>
 <br>
